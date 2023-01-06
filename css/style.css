@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans&family=Work+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Button style  */
+.btn-primary {
+  background: #f15b22;
+  border-radius: 5px;
+  padding: 20px 25px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  border: 0;
+  border-radius: 8px;
+}
+.btn-secondary {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 20px 25px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #f15b22;
+  border: 0;
+  border-radius: 8px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 45px;
+  color: #151414;
+}
+
+.section-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+header {
+  background-image: url("../assets/banner/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+  height: 800px;
+  margin: auto 215px;
+}
+.banner-container p {
+  text-align: right;
+  word-wrap: break-word;
+  width: 500px;
+}
