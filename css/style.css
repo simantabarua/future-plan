@@ -15,6 +15,13 @@
   color: #ffffff;
   border: 0;
   border-radius: 8px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background: #ffffff;
+  color: #f15b22;
+  border: 0.5px solid #f15b22;
+  transition: ease-in 0.3s;
 }
 .btn-secondary {
   background: #ffffff;
@@ -25,19 +32,28 @@
   color: #f15b22;
   border: 0;
   border-radius: 8px;
+  cursor: pointer;
+}
+.btn-secondary:hover {
+  background: #f15b22;
+  color: #ffffff;
+  border: 0.5px solid #ffffff;
+  transition: ease-in 0.3s;
 }
 
 .section-title {
   font-weight: 700;
-  font-size: 35px;
-  line-height: 45px;
+  font-size: 40px;
+  line-height: 55px;
   color: #151414;
 }
-
+.text-white {
+  color: #ffffff;
+}
 .section-description {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 30px;
   color: #444343;
 }
 header {
@@ -58,7 +74,13 @@ header {
 }
 .banner-container p {
   text-align: right;
-  word-wrap: break-word;
+  width: 500px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
   width: 500px;
 }
 
@@ -73,6 +95,22 @@ header {
 .my-failure img {
   width: 100%;
   height: 100%;
+  background: url(../assets/circle-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.my-failure p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.my-failure li {
+  list-style: none;
+  line-height: 35px;
+}
+.my-failure li i {
+  color: #16d887;
+  font-weight: 700px;
 }
 .my-plan {
   display: flex;
@@ -83,8 +121,10 @@ header {
 }
 .my-plan-container {
   display: flex;
-  gap: 85px;
-  margin-bottom: 130px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 230;
+  width: 1140px;
 }
 .my-plan-card {
   display: flex;
@@ -93,15 +133,29 @@ header {
   justify-content: center;
   align-items: center;
 }
-
+.my-plan-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+}
+.my-plan-description {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
 .call-now {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   width: 1140px;
-  margin: 0 auto;
+  margin: 120px auto;
   padding: 60px;
+  gap: 20px;
   border-radius: 10px;
   background-image: linear-gradient(
       90deg,
@@ -110,5 +164,49 @@ header {
     ),
     url(../assets/watch.png);
   background-repeat: no-repeat;
+  background-size: cover;
+}
 
+footer {
+  display: flex;
+  justify-content: space-around;
+  background: #151414;
+  align-items: center;
+  width: 100%;
+  height: 570px;
+}
+
+.footer-left {
+  width: 485px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer-left a {
+  margin-right: 15px;
+}
+.footer-right {
+  width: 485px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer-right h4 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.footer-right input[type="email"] {
+  width: 325px;
+  font-size: 18px;
+  padding: 21px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  color: #f3f3f3;
+  background: #151414;
+  outline: none;
+}
+.footer-right input[type="submit"] {
+  width: 170.11px;
 }
