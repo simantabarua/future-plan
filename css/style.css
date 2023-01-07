@@ -1,5 +1,6 @@
 /* Font Work sans */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans&family=Work+Sans:wght@400;500;600;700&display=swap");
+
 /* Global style */
 * {
   margin: 0;
@@ -31,6 +32,7 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
 /* Button Hover style  */
 /* ### Extra section  ### */
 .btn-primary:hover {
@@ -54,9 +56,11 @@
   line-height: 55px;
   color: #151414;
 }
+
 .text-white {
   color: #ffffff;
 }
+
 .section-description {
   font-weight: 400;
   font-size: 20px;
@@ -82,10 +86,12 @@ header {
   height: 800px;
   margin: auto 200px;
 }
+
 .banner-container p {
   text-align: right;
   width: 500px;
 }
+
 .banner-title {
   font-weight: 700;
   font-size: 65px;
@@ -104,6 +110,7 @@ header {
   width: 1074px;
   margin: 130px auto;
 }
+
 .my-failure img {
   width: 100%;
   height: 100%;
@@ -112,14 +119,17 @@ header {
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+
 .my-failure p {
   margin-bottom: 20px;
   text-align: justify;
 }
+
 .my-failure li {
   list-style: none;
   line-height: 35px;
 }
+
 .my-failure li i {
   color: #16d887;
   font-weight: 700px;
@@ -133,6 +143,7 @@ header {
   justify-content: center;
   gap: 50px;
 }
+
 .my-plan-container {
   display: flex;
   justify-content: space-between;
@@ -140,6 +151,7 @@ header {
   margin-right: 230;
   width: 1140px;
 }
+
 .my-plan-card {
   display: flex;
   flex-direction: column;
@@ -147,6 +159,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .my-plan-title {
   font-weight: 700;
   font-size: 30px;
@@ -154,6 +167,7 @@ header {
   text-align: center;
   color: #151414;
 }
+
 .my-plan-description {
   font-weight: 500;
   font-size: 25px;
@@ -178,6 +192,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .call-now h2 {
   width: 459px;
 }
@@ -203,6 +218,7 @@ header {
     #f15b2272
   );
 }
+
 .contact-me:hover {
   background-image: linear-gradient(
     to right bottom,
@@ -211,9 +227,11 @@ header {
     #f15b2272
   );
 }
+
 .contact-me h4 {
   color: #151414cd;
 }
+
 /* form style */
 form {
   display: flex;
@@ -222,6 +240,7 @@ form {
   flex-direction: column;
   gap: 20px;
 }
+
 form input[type="text"],
 input[type="email"],
 textarea {
@@ -235,6 +254,7 @@ textarea {
   outline: none;
   background: #e3dcdc;
 }
+
 form button {
   width: 100%;
 }
@@ -255,21 +275,25 @@ footer {
   flex-direction: column;
   gap: 15px;
 }
+
 .footer-left a {
   margin-right: 15px;
 }
+
 .footer-right {
   width: 485px;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+
 .footer-right h4 {
   font-weight: 600;
   font-size: 25px;
   line-height: 30px;
   color: #ffffff;
 }
+
 .footer-right input[type="email"] {
   width: 325px;
   font-size: 18px;
@@ -280,6 +304,7 @@ footer {
   background: #151414;
   outline: none;
 }
+
 .footer-right input[type="submit"] {
   width: 170px;
 }
