@@ -6,4 +6,4 @@
 
 <h4 align="center"> Screenshot desktop view</h4>
 
-![screenshot](https://i.ibb.co/0CmBK84/Screenshot-2023-01-07-at-20-54-04-Future.png)
+![alt text](https://github.com/simantabarua/future-plan/blob/main/screenshot.png?raw=true)
