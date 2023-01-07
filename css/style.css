@@ -1,4 +1,6 @@
+/* Font Work sans */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans&family=Work+Sans:wght@400;500;600;700&display=swap");
+/* Global style */
 * {
   margin: 0;
   padding: 0;
@@ -17,12 +19,7 @@
   border-radius: 8px;
   cursor: pointer;
 }
-.btn-primary:hover {
-  background: #ffffff;
-  color: #f15b22;
-  border: 0.5px solid #f15b22;
-  transition: ease-in 0.3s;
-}
+
 .btn-secondary {
   background: #ffffff;
   border-radius: 5px;
@@ -34,6 +31,15 @@
   border-radius: 8px;
   cursor: pointer;
 }
+/* Button Hover style  */
+/* ### Extra section  ### */
+.btn-primary:hover {
+  background: #ffffff;
+  color: #f15b22;
+  border: 0.5px solid #f15b22;
+  transition: ease-in 0.3s;
+}
+
 .btn-secondary:hover {
   background: #f15b22;
   color: #ffffff;
@@ -41,6 +47,7 @@
   transition: ease-in 0.3s;
 }
 
+/* section title style */
 .section-title {
   font-weight: 700;
   font-size: 40px;
@@ -56,6 +63,8 @@
   line-height: 30px;
   color: #444343;
 }
+
+/* Header style  */
 header {
   background-image: url("../assets/banner/banner.png");
   background-repeat: no-repeat;
@@ -63,6 +72,7 @@ header {
   background-size: cover;
 }
 
+/* Banner style  */
 .banner-container {
   display: flex;
   flex-direction: column;
@@ -83,6 +93,8 @@ header {
   text-align: right;
   width: 500px;
 }
+
+/* My Failure section style  */
 
 .my-failure {
   display: flex;
@@ -112,6 +124,8 @@ header {
   color: #16d887;
   font-weight: 700px;
 }
+
+/* My plan section  style */
 .my-plan {
   display: flex;
   align-items: center;
@@ -147,6 +161,8 @@ header {
   text-align: center;
   color: #737272;
 }
+
+/* Call Now Section style*/
 .call-now {
   display: flex;
   flex-direction: column;
@@ -157,28 +173,48 @@ header {
   padding: 60px;
   gap: 20px;
   border-radius: 10px;
-  background-image: linear-gradient(
-      90deg,
-      #f15b22 0%,
-      rgba(241, 91, 34, 0) 100%
-    ),
+  background-image: linear-gradient(90deg, #f15b22 0%, #f15b2200 100%),
     url(../assets/watch.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
+.call-now h2 {
+  width: 459px;
+}
 
+/* Contact Me section style */
+/* #### Extra section ##### */
 .contact-me {
-  margin: 130px auto;
+  margin: 110px auto;
+  height: 550px;
   width: 1140px;
   border-radius: 15px;
-  padding: 60px;
+  padding: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 60px;
-  background-image: linear-gradient(to right top, #d16ba561, #f376492d, #f15d227a);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-image: linear-gradient(
+    to right top,
+    #f01e0ba7,
+    #f3764989,
+    #f15b2272
+  );
 }
+.contact-me:hover {
+  background-image: linear-gradient(
+    to right bottom,
+    #f01e0ba7,
+    #f3764989,
+    #f15b2272
+  );
+}
+.contact-me h4 {
+  color: #151414cd;
+}
+/* form style */
 form {
   display: flex;
   align-items: center;
@@ -192,12 +228,18 @@ textarea {
   width: 600px;
   font-size: 18px;
   padding: 21px;
-  border: 0.5px solid #f15b22;
+  border: 0;
+  border-bottom: 0.5px solid #f15b22;
   border-radius: 8px;
   color: #444343;
   outline: none;
+  background: #e3dcdc;
+}
+form button {
+  width: 100%;
 }
 
+/* Footer style */
 footer {
   display: flex;
   justify-content: space-around;
@@ -239,5 +281,5 @@ footer {
   outline: none;
 }
 .footer-right input[type="submit"] {
-  width: 170.11px;
+  width: 170px;
 }
