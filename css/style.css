@@ -167,6 +167,37 @@ header {
   background-size: cover;
 }
 
+.contact-me {
+  margin: 130px auto;
+  width: 1140px;
+  border-radius: 15px;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+  background-image: linear-gradient(to right top, #d16ba561, #f376492d, #f15d227a);
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+form input[type="text"],
+input[type="email"],
+textarea {
+  width: 600px;
+  font-size: 18px;
+  padding: 21px;
+  border: 0.5px solid #f15b22;
+  border-radius: 8px;
+  color: #444343;
+  outline: none;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
